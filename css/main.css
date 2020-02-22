@@ -5,7 +5,6 @@ body,html{
   background: white;
 }
 
-
 /*
 header
 */
@@ -17,12 +16,9 @@ header
   padding-right: 50px;
   padding-left: 50px;
 }
-.head-logo{
-  float: left;
-}
 .head-logo a {
   display: block;
-  position: center;
+  float: left;
 }
 .top-nav{
   float: right;
@@ -109,14 +105,14 @@ banner
   margin: 6em 0;
   text-align:center;
 }
-.banner-bottom-text h3{
+.banner-bottom-text blockquote{
   color: black;
   margin: 0;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
 }
-.banner-bottom-text p{
+.banner-bottom-text cite{
   font-style: italic;
   color: #555555;
   margin: 0;
@@ -149,9 +145,6 @@ img {
   color: #979797;
   margin: 0.5em 0;
   font-size: 14px;
-}
-.grid-mid {
-  position: center;
 }
 .banner-bottom-grid {
   float: left;
@@ -186,7 +179,7 @@ img {
 /*
 Форма обратной связи
 */
-#inline {
+.form {
   width: 80%;
   margin: 0 auto;
   background: #FFF;
@@ -243,6 +236,7 @@ footer
 */
 .footer {
   background-color: black;
+  margin: 0 0;
   height: 13vh;
 }
 .footer-left-text p {
