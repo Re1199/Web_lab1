@@ -7,18 +7,21 @@
   <meta name="description" content="Лаба просто">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
   <header class="header">
-      <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+      <a href="index.html">
+        <img src="img/logo_1.png" alt="Logo">
+      </a>
     <nav class="top-nav">
       <ul class="nav1">
-        <li><a class="scroll">Главная</a></li>
-        <li><a class="scroll">Каталог товаров</a></li>
-        <li><a class="scroll">Наша команда</a></li>
-        <li><a class="scroll">Магазины</a></li>
-        <li><a class="scroll">Реклама</a></li>
+        <li><a href="index.html" class="scroll">Главная</a></li>
+        <li><a href="#banner-bottom" class="scroll">Каталог товаров</a></li>
+        <li><a href="http://fixiki.ru/" class="scroll">Наша команда</a></li>
+        <li><a href="#snet" class="scroll">Соцсети</a></li>
+        <li><a href="#contact" class="scroll">Реклама</a></li>
       </ul>
     </nav>
   </header>
@@ -43,7 +46,7 @@
   </section>
 <!-- //quote -->
 <!-- banner-bottom -->
-  <section class="banner-bottom">
+  <section class="banner-bottom"><a name="banner-bottom"></a>
     <section class="banner-bottom-grids">
       <section class="banner-bottom-grid">
         <img src="img/item1.png" alt="Товар 1. Синие ботинки" />
@@ -71,28 +74,50 @@
 <!-- форма обратной связи -->
   <section class="form">
     <h2>Онлайн заявка</h2>
-    <form id="contact" action="#" method="post" name="contact">
-      <input id="name" class="txt" name="name" type="text" placeholder="Ваше имя">
-      <input id="phone" class="txt" name="phone" type="tel" placeholder="Ваш телефон">
-      <input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail">
-      <textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea>
+    <a id="contact" action="#" method="post" name="contact">
+      <section class="lab">
+        <label>Ваше имя</label>
+      </section>
+      <section class="name_2">
+        <input id="name" class="txt" name="name" type="text" placeholder="Иванов Иван Иванович">
+      </section>
+      <section class="lab">
+        <label>Ваш телефон</label>
+      </section>
+      <section class="tel_2">
+        <input id="phone" class="txt" name="phone" type="tel" placeholder="+7 (___) - ___-___">
+      </section>
+      <section class="lab">
+        <label>Email</label>
+      </section>
+      <section class="mail_2">
+        <input id="email" class="txt" name="email" type="email" placeholder="ivan@mail.com">
+      </section>
+      <section class="lab">
+        <label>Ваше сообщение</label>
+      </section>
+      <section class="lab">
+        <textarea id="msg" class="txtarea" name="msg" placeholder="Текст"></textarea>
+      </section>
       <button type="submit" id="send">Отправить</button>
     </form>
+    </a>
   </section>
 </main>
 
-  
+
   <footer class="footer">
     <section class="footer-left-text">
       <p>Copyright &#169; 2020 Bright Colors. All Rights Reserved(No) | Design by
         <a href="https://ip-kharisova.ru/">IPKharisova</a></p>
     </section>
-    <section class="footer-right">
+    <section class="footer-right"><a name="snet">
       <ul>
         <li><a href="https://www.facebook.com/" title="Facebook"  class="facebook"> </a></li>
         <li><a href="https://twitter.com" title="Twitter" class="twitter"> </a></li>
         <li><a href="https://vk.com" title="ВКонтакте"  class="vkontakte"> </a></li>
       </ul>
+    </a>
     </section>
   </footer>
 </body>

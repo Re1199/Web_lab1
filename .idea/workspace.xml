@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e26dfa-ba61-43af-b9b3-7c5edf9b713b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -51,7 +52,10 @@
       <workItem from="1582024609896" duration="19796000" />
       <workItem from="1582089110012" duration="3758000" />
       <workItem from="1582312017109" duration="1685000" />
-      <workItem from="1582363018208" duration="1407000" />
+      <workItem from="1582363018208" duration="2003000" />
+      <workItem from="1583491561061" duration="8389000" />
+      <workItem from="1583521998733" duration="4415000" />
+      <workItem from="1583564489849" duration="12728000" />
     </task>
     <task id="LOCAL-00001" summary="add alt tag for images">
       <created>1582313298976</created>

@@ -15,13 +15,12 @@ header
   border-bottom: 2px solid #FCC001;
   padding-right: 50px;
   padding-left: 50px;
-}
-.head-logo a {
-  display: block;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .top-nav{
-  float: right;
 }
 .top-nav ul {
   padding: 0;
@@ -34,12 +33,11 @@ header
 .top-nav ul li a{
   color:#BEC0C2;
   font-size: 16px;
-  transition: 0.5s all;
+  text-decoration: none;
 }
 .top-nav ul li a:hover{
   color: #FCC001;
   cursor: pointer;
-  text-decoration: none;
   border-bottom: 5px solid #FCC001;
 }
 /*
@@ -60,6 +58,7 @@ banner
 .banner-info{
   text-align: center;
   margin-top: 0;
+  padding: 1em;
 }
 .banner-info h2 {
   color: #fff;
@@ -82,7 +81,7 @@ banner
   color: #fff;
   border-radius: 7px;
   background: #FCC001;
-  width: 15%;
+  width: 10em;
   height: 25px;
   display: block;
   margin: 0 auto;
@@ -102,7 +101,7 @@ banner
 Надпись
  */
 .banner-bottom-text{
-  margin: 6em 0;
+  margin: 6em 1em;
   text-align:center;
 }
 .banner-bottom-text blockquote{
@@ -164,10 +163,11 @@ img {
   padding-top: 8em;
   text-align: center;
   background: url(../img/14.png) no-repeat center;
+  background-size: contain;
 }
 .interesting-text h3{
-  color:black;
-  font-size:20px;
+  color: black;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
 }
@@ -186,10 +186,13 @@ img {
   padding: 2em 2em;
   height: fit-content;
 }
+.lab {
+  padding: 5px 0px;
+}
 .txt {
   display:inline-block;
   color: #676767;
-  width: 190px;
+  width: 620px;
   margin-bottom: 10px;
   border: 1px solid #CCC;
   padding: 5px 9px;
@@ -237,15 +240,15 @@ footer
 .footer {
   background-color: black;
   margin: 0 0;
-  height: 13vh;
+  min-height: 13vh;
+  display: flex;
+  flex-direction: column;
 }
 .footer-left-text p {
   color: #BEC0C2;
   margin: 0;
   font-size: 15px;
-  padding: 2em 0 2em 2em;
-  width: 30%;
-  float: left;
+  padding: 2em 2em 2em 2em;
 }
 .footer-left-text p a {
   color: #FCC001;
@@ -259,8 +262,7 @@ footer
   text-align: right;
 }
 .footer-right ul {
-  padding: 1.3em 0 0.3em 0;
-  vertical-align: middle;
+  padding: 0.5em 0 0.5em 0;
 }
 .footer-right ul li {
   display: inline-block;

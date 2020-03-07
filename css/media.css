@@ -1,0 +1,266 @@
+@media (max-width: 1120px) {
+  .header{
+    padding-left: 30px;
+  }
+  .top-nav{
+    flex-direction: column;
+  }
+  .top-nav li {
+  }
+  .txt {
+    width: 500px;
+  }
+  .txtarea {
+    width: 500px
+  }
+}
+
+
+@media (max-width: 850px) {
+  .banner-bottom {
+    margin: 1em 1em;
+    padding: 2px 2px;
+    height: max-content;
+  }
+  .banner-bottom-grid{
+    width: 100%;
+  }
+  .banner-bottom-grid h3 {
+    font-size: 17px;
+  }
+  .banner-bottom-grid p {
+    font-size: 13px;
+  }
+  .banner-bottom-grids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+  }
+}
+
+
+@media (max-width: 794px) {
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+  }
+  .top-nav ul li{
+    display: inline-block;
+    margin: 15px 10px;
+  }
+  .banner-info h2 {
+    font-size: 68px;
+  }
+  .banner-info p {
+    font-size: 23px;
+  }
+}
+
+
+@media (max-width: 562px) {
+  .top-nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 630px) {
+  .header {
+  }
+  .txt {
+    width: 400px;
+  }
+  .txtarea {
+    width: 400px
+  }
+  .banner-info h2 {
+    font-size: 65px;
+  }
+  .banner-info p {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .header{
+  }
+  .top-nav ul li {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-info p {
+    font-size: 18px;
+  }
+  .more a {
+    font-size: 13px;
+    width: 9em;
+    height: 21px;
+  }
+  .banner-bottom-text blockquote{
+    font-size: 17px;
+  }
+  .banner-bottom-text cite{
+    font-size: 17px;
+  }
+  .txt {
+    width: 300px;
+  }
+  .txtarea {
+    width: 300px
+  }
+  #send {
+    font-size: 14px;
+    width: 190px;
+  }
+  .footer-right ul {
+    padding: 0.2em 0 0.2em 0;
+  }
+  .footer-right ul li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+}
+
+
+@media (max-width: 390px) {
+  .nav1 ul{
+    align-content: center;
+  }
+  .banner-info h2 {
+    font-size: 60px;
+  }
+  .banner-info p {
+    font-size: 17px;
+  }
+  .more a {
+    font-size: 11px;
+    width: 8em;
+    height: 17px;
+  }
+  #send {
+    font-size: 13px;
+    width: 160px;
+  }
+  .banner-bottom-text blockquote{
+    font-size: 15px;
+  }
+  .banner-bottom-text cite{
+    font-size: 15px;
+  }
+  .interesting-text h3 {
+    font-size: 14px;
+  }
+  .form h2{
+    font-size: 16px;
+  }
+  .lab {
+    font-size: 14px;
+  }
+  .txt {
+    width: 250px;
+    font-size: 14px;
+  }
+  .txtarea {
+    width: 250px;
+    font-size: 14px;
+  }
+  .footer-left-text p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 340px) {
+  .banner-bottom {
+    margin: 0em 1em;
+    padding: 2px 2px;
+    height: max-content;
+  }
+  .banner-bottom-grid{
+    width: 100%;
+  }
+  .banner-bottom img{
+    width: 80%;
+    height: 80%;
+  }
+  .banner-bottom-grid h3 {
+    font-size: 15px;
+  }
+  .banner-bottom-grid p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 300px) {
+  .banner-info h2 {
+    font-size: 55px;
+  }
+  .banner-info p {
+    font-size: 15px;
+  }
+  .banner-bottom-text blockquote{
+    font-size: 12px;
+  }
+  .banner-bottom-text cite{
+    font-size: 12px;
+  }
+  .banner-bottom-grid h3 {
+    font-size: 13px;
+  }
+  .banner-bottom-grid p {
+    font-size: 9px;
+  }
+  .interesting-text h3 {
+    font-size: 12px;
+  }
+  .form h2{
+    font-size: 17px;
+  }
+  .txt {
+    width: 180px;
+    font-size: 13px;
+  }
+  .txtarea {
+    width: 180px;
+    font-size: 13px;
+  }
+  .footer-left-text p {
+    font-size: 12px;
+  }
+  .footer-right ul {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: center;
+  }
+  .footer-right ul li {
+    margin: 0.3em 1em;
+  }
+}
+
+@media (max-width: 280px) {
+  .banner-info h2 {
+    font-size: 45px;
+  }
+  .banner-info p {
+    font-size: 13px;
+  }
+  .interesting-text h3 {
+    font-size: 10px;
+  }
+  .form h2{
+    font-size: 16px;
+  }
+  .txt {
+    width: 160px;
+    font-size: 12px;
+  }
+  .txtarea {
+    width: 160px;
+    font-size: 12px;
+  }
+}
